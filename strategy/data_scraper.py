@@ -146,7 +146,6 @@ class TradingStrategy:
         self.watch_list = Watch_List
         self.parameters_on_data = ParametersOnData()
         self.parameters_on_risk = ParametersOnRisk()
-<<<<<<< HEAD
 
     async def on_second(
         self, market_data, orderbook_data, portfolio_data, liquidation_data
@@ -162,13 +161,6 @@ class TradingStrategy:
         order_history,
         trade_history,
     ):
-=======
-    
-    async def on_second(self, market_data, orderbook_data, portfolio_data, liquidation_data):
-        print('Finished!')
-    
-    async def on_candle_closed(self, market_data, orderbook_data, portfolio_data, liquidation_data, order_history, trade_history):
->>>>>>> b8600444a5eb8bdfdc02648c9b9a7e23490657fb
         pass
 
     async def on_portfolio_updated(self, portfolio_data):
