@@ -29,19 +29,6 @@ This read me file is going to lead you guys through these topics. Feel free to s
 - Commands
 - Indicators
 
-## [Use OMBB for Backtesting](#use-ombb-for-backtesting)
-
-- Collect Market Data
-- Run a virtual world
-
-## [Use OMBB for Stress Test](#use-ombb-for-stress-test)
-
-- Overview
-- Montecarlo Shuffling Simulation
-- Montecarlo Resampling Simulation
-- Out of Sample Backtesting
-- Date Shifting Backtesting
-
 ---
 
 # How to setup
